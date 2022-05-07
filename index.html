@@ -31,7 +31,9 @@
           <div class="input-wrapper">
             <label for="name">Nome</label>
             <input type="text" name="name" id="name" required minlength="2" />
+          </div>
 
+          <div class="input-wrapper">
             <label for="surname">Sobrenome</label>
             <input type="text" name="name" id="surname" required minlength="2" />
           </div>
@@ -39,7 +41,7 @@
 
         <div class="input-wrapper">
           <label for="email">E-mail <span>(digite um e-mail válido)</span></label>
-          <input type="email" id="email" required />
+          <input type="email" id="email" />
         </div>
 
         <div class="input-wrapper">
@@ -82,6 +84,7 @@
               <label for="end">Até</label>
               <input type="time" id="end" required />
             </div>
+          </div>
 
             <h6>Segunda mentoria</h6>
             <div class="col-3">
@@ -106,11 +109,14 @@
         </div>
       </fieldset>
     </form>
-    
-    <footer>
-      <button form="form-mentoring">Salvar</button>
-    </footer>
   </div>
+
+  <footer>
+    <div class="button-wrapper">
+    <button class="btn-save" type="submit"
+     form="form-mentoring">Salvar</button>
+    </div>
+  </footer>
   
 </body>
 </html>
