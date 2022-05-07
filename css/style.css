@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -63,31 +64,6 @@ fieldset {
   border: none;
 }
 
-fieldset{
-  border: 0;
-  border-bottom: 1px solid #E6E6F0;
-  width: 622px;
-  padding-bottom: 36px;
-}
-
-form {
-  margin-top: 38px;
-  background: #FFFFFF;
-  border-radius: 8px 8px 0 0;
-  min-height: 300px;
-
-  padding: 64px;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-
-.fieldset-wrapper {
-  width: 590px;
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
 
 fieldset legend {
   font-family: 'Staatliches';
@@ -105,6 +81,32 @@ fieldset legend {
 
   color: #535971;
 }
+
+fieldset h2 {
+  font-family: 'Staatliches';
+  font-weight: 400;
+  font-size: 20px;
+  color: #535971;
+}
+
+form {
+  margin-top: 38px;
+  background: #FFFFFF;
+  border-radius: 8px 8px 0 0;
+  min-height: 300px;
+
+  padding: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.fieldset-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
 
 .input-wrapper {
   display: flex;
